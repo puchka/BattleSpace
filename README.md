@@ -9,6 +9,7 @@ TODO
 -------
 
 * Splash Screen
+* Display Score, Victory/Defeat
 
 CONTACT
 -------
