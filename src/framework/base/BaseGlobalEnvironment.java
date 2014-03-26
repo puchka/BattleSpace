@@ -47,7 +47,7 @@ public class BaseGlobalEnvironment {
     private float mParameterKey_FLOAT_DF;
     private float mParameterKey_FLOAT_GH;
     private float mParameterKey_FLOAT_JK;
-    private float mParameterKey_FLOAT_LÖ;
+    private float mParameterKey_FLOAT_LO;
     private float mParameterKey_FLOAT_YX;
     private float mParameterKey_FLOAT_CV;
     private float mParameterKey_FLOAT_BN;
@@ -158,7 +158,7 @@ public class BaseGlobalEnvironment {
                     mParameterKey_FLOAT_DF=0.0f;
                     mParameterKey_FLOAT_GH=0.0f;
                     mParameterKey_FLOAT_JK=0.0f;
-                    mParameterKey_FLOAT_LÖ=0.0f;
+                    mParameterKey_FLOAT_LO=0.0f;
                     mParameterKey_FLOAT_YX=0.0f;
                     mParameterKey_FLOAT_CV=0.0f;
                     mParameterKey_FLOAT_BN=0.0f;
@@ -191,7 +191,7 @@ public class BaseGlobalEnvironment {
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_DF="+mParameterKey_FLOAT_DF);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_GH="+mParameterKey_FLOAT_GH);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_JK="+mParameterKey_FLOAT_JK);
-                    BaseLogging.getInstance().info("mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LÖ);
+                    BaseLogging.getInstance().info("mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LO);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_YX="+mParameterKey_FLOAT_YX);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_CV="+mParameterKey_FLOAT_CV);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_BN="+mParameterKey_FLOAT_BN);
@@ -287,11 +287,11 @@ public class BaseGlobalEnvironment {
                     mParameterKey_FLOAT_JK-=0.1f;
                     BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_JK="+mParameterKey_FLOAT_JK);
                 } else if (e.getKeyChar()=='l') {
-                    mParameterKey_FLOAT_LÖ+=0.1f;
-                    BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LÖ);
+                    mParameterKey_FLOAT_LO+=0.1f;
+                    BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LO);
                 } else if (e.getKeyChar()=='ö') {
-                    mParameterKey_FLOAT_LÖ-=0.1f;
-                    BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LÖ);
+                    mParameterKey_FLOAT_LO-=0.1f;
+                    BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LO);
                 } else if (e.getKeyChar()=='y') {
                     mParameterKey_FLOAT_YX+=0.1f;
                     BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_YX="+mParameterKey_FLOAT_YX);
@@ -468,7 +468,7 @@ public class BaseGlobalEnvironment {
                     mParameterKey_FLOAT_DF=0.0f;
                     mParameterKey_FLOAT_GH=0.0f;
                     mParameterKey_FLOAT_JK=0.0f;
-                    mParameterKey_FLOAT_LÖ=0.0f;
+                    mParameterKey_FLOAT_LO=0.0f;
                     mParameterKey_FLOAT_YX=0.0f;
                     mParameterKey_FLOAT_CV=0.0f;
                     mParameterKey_FLOAT_BN=0.0f;
@@ -501,7 +501,7 @@ public class BaseGlobalEnvironment {
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_DF="+mParameterKey_FLOAT_DF);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_GH="+mParameterKey_FLOAT_GH);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_JK="+mParameterKey_FLOAT_JK);
-                    BaseLogging.getInstance().info("mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LÖ);
+                    BaseLogging.getInstance().info("mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LO);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_YX="+mParameterKey_FLOAT_YX);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_CV="+mParameterKey_FLOAT_CV);
                     BaseLogging.getInstance().info("mParameterKey_FLOAT_BN="+mParameterKey_FLOAT_BN);
@@ -602,11 +602,11 @@ public class BaseGlobalEnvironment {
                     mParameterKey_FLOAT_JK-=0.1f;
                     BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_JK="+mParameterKey_FLOAT_JK);
                 } else if (e.getKeyChar()=='l') {
-                    mParameterKey_FLOAT_LÖ+=0.1f;
-                    BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LÖ);
+                    mParameterKey_FLOAT_LO+=0.1f;
+                    BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LO);
                 } else if (e.getKeyChar()=='ö') {
-                    mParameterKey_FLOAT_LÖ-=0.1f;
-                    BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LÖ);
+                    mParameterKey_FLOAT_LO-=0.1f;
+                    BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_LÖ="+mParameterKey_FLOAT_LO);
                 } else if (e.getKeyChar()=='y') {
                     mParameterKey_FLOAT_YX+=0.1f;
                     BaseLogging.getInstance().info("CHANGE PARAMETER KEY VARIABLE mParameterKey_FLOAT_YX="+mParameterKey_FLOAT_YX);
@@ -772,7 +772,7 @@ public class BaseGlobalEnvironment {
     public float getParameterKey_FLOAT_DF() { return mParameterKey_FLOAT_DF; }
     public float getParameterKey_FLOAT_GH() { return mParameterKey_FLOAT_GH; }
     public float getParameterKey_FLOAT_JK() { return mParameterKey_FLOAT_JK; }
-    public float getParameterKey_FLOAT_LÖ() { return mParameterKey_FLOAT_LÖ; }
+    public float getParameterKey_FLOAT_LÖ() { return mParameterKey_FLOAT_LO; }
     public float getParameterKey_FLOAT_YX() { return mParameterKey_FLOAT_YX; }
     public float getParameterKey_FLOAT_CV() { return mParameterKey_FLOAT_CV; }
     public float getParameterKey_FLOAT_BN() { return mParameterKey_FLOAT_BN; }
